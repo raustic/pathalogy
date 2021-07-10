@@ -1,0 +1,13 @@
+{
+    "type": "mysql",
+    "host": "103.212.120.142",
+    "port": 3306,
+    "username": "jamodpath",
+    "password": "~U5kha55",
+    "database": "pathalogy",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
+
+
+ 
