@@ -1,0 +1,34 @@
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+@Entity()
+export class RegisterPathorHospital{
+@PrimaryGeneratedColumn()
+id:number
+@Column()
+hospitalorPathName:string
+@Column()
+consultName:string
+@Column()
+consultMobile:string
+@Column()
+Address:string
+@Column()
+city:string
+@Column()
+zip:string
+@Column()
+regId:string
+@Column()
+isActive:number
+@Column({type:'date',nullable:true,default:null})
+CreatedAt:Date
+@Column()
+CreatedBy:number
+@Column({type:'date',nullable:true,default:null})
+UpdatedAt:Date
+@Column()
+UpdatedBy:number
+@Column()
+mobile:string
+@Column()
+pwd:string
+}

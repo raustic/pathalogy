@@ -1,0 +1,31 @@
+export declare class patient {
+    id: number;
+    aadhar: string;
+    name: string;
+    dob: Date;
+    sex: string;
+    maritalStatus: string;
+    fatherName: string;
+    husbandName: string;
+    motherName: string;
+    wifeName: string;
+    ReferencedByName: string;
+    ReferenceByMobile: string;
+    consentFormImage: string;
+    Address: string;
+    HouseNo: string;
+    buildingorMohalla: string;
+    village: string;
+    city: string;
+    state: string;
+    country: string;
+    patientOccupation: string;
+    patientMobile: string;
+    email: string;
+    emergencyMobile: string;
+    isActive: number;
+    CreatedAt: Date;
+    CreatedBy: number;
+    UpdatedAt: Date;
+    UpdatedBy: number;
+}
